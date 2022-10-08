@@ -1,0 +1,830 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../image/logo-light.png" type="image/x-icon">
+    <title>Hously</title>
+    <link rel="stylesheet" href="../css/font.css2.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <link rel="stylesheet" href="../css/owl.carousel.min.css">
+    <link rel="stylesheet" href="../css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/main.css">
+</head>
+<body>
+    <header id="header">
+        <div class="container">
+            <nav class="navbar navbar-expand-lg navbar-light row">
+                <a class="navbar-brand col-lg-2" href="../html/home.index.html">
+                    <img src="../image/logo-ligh.png " alt="logo-light"  class="logo-light" id="darkimg"> 
+                    <img src="../image/logo-dark.png" alt="logo-dark" class="logo-dark" ></a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse col-lg-10 m-auto" id="navbarSupportedContent">
+                    <ul class="navbar-nav ml-auto  col-lg-7 col-md-3 ">
+                        <li class="nav-item headline">
+                            <a class="nav-link " href="../html/home.index.html">Home <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item headline">
+                            <a class="nav-link" href="../html/about.index.html">About</a>
+                        </li>
+                        <li class="nav-item headline">
+                            <a class="nav-link" href="../html/BUYs.index.html">Buy</a>
+                        </li>
+                        <li class="nav-item headline">
+                            <a class="nav-link" href="../html/sell.index.html">Sell</a>
+                        </li>
+                        <li class="nav-item headline dropdown">
+                            <a class="nav-link active" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-expanded="false">
+                            Listing
+                            </a>
+                            <ul class="dropdown-menu menu1  dropright" aria-labelledby="navbarDropdown">
+                                <a class="dropdown-item sumdrop headline"  href="#" id="navbarDropdown2" role="button" data-toggle="dropdown">
+                                    Grid View
+                                </a>
+                                <ul class="dropdown-menu menu2">
+                                    <li><a class="dropdown-item headline" href="../html/grid.index.html">Grid Listing</a></li>
+                                    <li><a class="dropdown-item headline" href="../html/Gridmap.index.html">Grid With Map</a></li>
+                                </ul>
+                                <li><a class="dropdown-item headline active" href="../html/list.index.html">List Listing</a></li>
+                                <li><a class="dropdown-item headline" href="../html/listmap.index.html">List With Map</a></li>
+                                <li><a class="dropdown-item headline" href="../html/detailsinfo.index.html">Propertis Details</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item headline dropdown">
+                            <a class="nav-link " href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-expanded="false">
+                            Pages
+                            </a>
+                            <ul class="dropdown-menu menu1 dropright" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item headline" href="../html/feature.index.html">Feauter</a></li>
+                                <li><a class="dropdown-item headline" href="../html/pricing.index.html">Pricing</a></li>
+                                <li><a class="dropdown-item headline" href="../html/fags.index.html">Fags</a></li>
+                                <a class="dropdown-item headline sumdrop " href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-expanded="false">
+                                    Utility
+                                </a>
+                                <ul class="dropdown-menu menu2 down">
+                                    <li><a class="dropdown-item headline" href="../html/Terms.index.html">Terms & Services</a></li>
+                                    <li><a class="dropdown-item headline" href="../html/Privacy.index.html">Privacy Policy</a></li>
+                                </ul>
+                            </ul>
+                        </li>
+                        <li class="nav-item headline">
+                            <a class="nav-link" href="../html/contact.index.html">Contact</a>
+                        </li>
+                    </ul>
+                    <ul class="regestuse my-2 ml-auto col-lg-3">
+                        <li><i class="fa-solid fa-user"></i></li>
+                        <li><a class="btn b1 btn-outline-success my-2 my-sm-0" href="../html/login.index.html">Log In</a></li>
+                        <li><a class="btn b2 btn-outline-success my-2 my-sm-0" href="../html/signup.index.html">Sign Up</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <section class="list_1  buy_1">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <h3>List View Layout
+                    </h3>
+                </div>
+            </div>
+            <div class="darkmode" id="darkmode">
+                <label id="dark">
+                    <ul>
+                        <li><i class="fa-solid fa-moon"></i></li>
+                        <li><i class="fa-solid fa-sun"></i></li>                 
+                    </ul>
+                </label>
+            </div>
+            <button class="btn btn-info" id="btn"><i class="fa-solid fa-arrow-up-long"></i></button>
+        </div>
+    </section>
+    <div class="searchform_2 ">
+        <form class=" form-group col-lg-9 col-md-9 col-sm-8" id="form">
+            <ul class="list row" id="darklist">
+                <li class="col-lg-3 col-md-6">
+                    <label class="col-sm-2 col-form-label">Search:*</label>
+                    <input class="form-control mr-sm-2 inputt" type="search" placeholder="Search" aria-label="Search">
+                </li>
+                <li class="col-lg-3 col-md-6">
+                    <label class="col-sm-2 col-form-label">Select&nbsp;Categories:</label>
+                    <select class="custom-select inputt" id="validationDefault04">
+                        <option>Houses</option>
+                        <option>Apartment</option>
+                        <option>Offices</option>
+                        <option>Townhome</option>
+                    </select>                    
+                </li>
+                <li class="col-lg-3 col-md-6">
+                    <label class="col-sm-2 col-form-label">Min&nbsp;Price:</label>
+                    <select class="custom-select inputt" id="validationDefault04">
+                        <option>Min Price</option>
+                        <option>500</option>
+                        <option>1000</option>
+                        <option>2000</option>
+                        <option>3000</option>
+                        <option>4000</option>
+                        <option>5000</option>
+                        <option>6000</option>
+                    </select>
+                </li>
+                <li class="col-lg-3 col-md-6">
+                    <label class="col-sm-2 col-form-label">Max&nbsp;Price:</label>
+                    <select class="custom-select inputt" id="validationDefault04">
+                        <option>Max Price</option>
+                        <option>500</option>
+                        <option>1000</option>
+                        <option>2000</option>
+                        <option>3000</option>
+                        <option>4000</option>
+                        <option>5000</option>
+                        <option>6000</option>
+                    </select>
+                </li>
+            </ul>
+            <button class="btn btn-outline-success col-lg-3 col-md-6" type="submit" id="nn"><a href="../html/login.html">Search Now</a> </button>
+        </form>
+    </div>
+    <section class="list_2">
+        <div class="container">
+            <div class="row">
+                <div class="card cardmedia mb-3 col-lg-6 col-md-12" style="max-width: 540px;">
+                    <div class="row no-gutters">
+                        <div class=" col-lg-4 col-md-4 imgbe">
+                            <img src="../image/1.jpg" alt="home1" class="imgmedia">
+                        </div>
+                        <div class="col-lg-8 col-md-8">
+                            <div class="card-body">
+                                <a class="titlelink" href="../html/details.index.html">10765 Hillshire Ave, Baton Rouge, LA<br>
+                                    70810, USA</a>
+                                <hr>
+                                <ul class="threeicon">
+                                    <li>
+                                        <i class="fa-solid fa-minimize"></i>
+                                        <span>8000 sqf</span>
+                                    </li>
+                                    <li>
+                                        <i class="fa-solid fa-bed"></i>
+                                        <span>4 Beds</span>
+                                    </li>
+                                    <li>
+                                        <i class="fa-solid fa-bath"></i>
+                                        <span>4 Baths</span>
+                                    </li>
+                                </ul>
+                                <hr>
+                                <ul class="detal">
+                                    <li>
+                                        <span>Price</span>
+                                        <p>$5000</p>
+                                    </li>
+                                    <li>
+                                        <span>Rating</span>
+                                        <ul class="rate">
+                                            <li><i class="fa-solid fa-star"></i></li>
+                                            <li><i class="fa-solid fa-star"></i></li>
+                                            <li><i class="fa-solid fa-star"></i></li>
+                                            <li><i class="fa-solid fa-star"></i></li>
+                                            <li><i class="fa-solid fa-star"></i></li>
+                                            <li>5.0(30)</li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card cardmedia mb-3 col-lg-6 col-md-12" style="max-width: 540px;">
+                    <div class="row no-gutters">
+                        <div class=" col-lg-4 col-md-4 imgbe">
+                            <img src="../image/2.jpg" alt="home1" class="imgmedia">
+                        </div>
+                        <div class="col-lg-8 col-md-8">
+                            <div class="card-body">
+                                <a class="titlelink" href="../html/details.index.html">10765 Hillshire Ave, Baton Rouge, LA<br>
+                                    70810, USA</a>
+                                <hr>
+                                <ul class="threeicon">
+                                    <li>
+                                        <i class="fa-solid fa-minimize"></i>
+                                        <span>8000 sqf</span>
+                                    </li>
+                                    <li>
+                                        <i class="fa-solid fa-bed"></i>
+                                        <span>4 Beds</span>
+                                    </li>
+                                    <li>
+                                        <i class="fa-solid fa-bath"></i>
+                                        <span>4 Baths</span>
+                                    </li>
+                                </ul>
+                                <hr>
+                                <ul class="detal">
+                                    <li>
+                                        <span>Price</span>
+                                        <p>$5000</p>
+                                    </li>
+                                    <li>
+                                        <span>Rating</span>
+                                        <ul class="rate">
+                                            <li><i class="fa-solid fa-star"></i></li>
+                                            <li><i class="fa-solid fa-star"></i></li>
+                                            <li><i class="fa-solid fa-star"></i></li>
+                                            <li><i class="fa-solid fa-star"></i></li>
+                                            <li><i class="fa-solid fa-star"></i></li>
+                                            <li>5.0(30)</li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card cardmedia mb-3 col-lg-6 col-md-12" style="max-width: 540px;">
+                    <div class="row no-gutters">
+                        <div class=" col-lg-4 col-md-4 imgbe">
+                            <img src="../image/3.jpg" alt="home1" class="imgmedia">
+                        </div>
+                        <div class="col-lg-8 col-md-8">
+                            <div class="card-body">
+                                <a class="titlelink" href="../html/details.index.html">10765 Hillshire Ave, Baton Rouge, LA<br>
+                                    70810, USA</a>
+                                <hr>
+                                <ul class="threeicon">
+                                    <li>
+                                        <i class="fa-solid fa-minimize"></i>
+                                        <span>8000 sqf</span>
+                                    </li>
+                                    <li>
+                                        <i class="fa-solid fa-bed"></i>
+                                        <span>4 Beds</span>
+                                    </li>
+                                    <li>
+                                        <i class="fa-solid fa-bath"></i>
+                                        <span>4 Baths</span>
+                                    </li>
+                                </ul>
+                                <hr>
+                                <ul class="detal">
+                                    <li>
+                                        <span>Price</span>
+                                        <p>$5000</p>
+                                    </li>
+                                    <li>
+                                        <span>Rating</span>
+                                        <ul class="rate">
+                                            <li><i class="fa-solid fa-star"></i></li>
+                                            <li><i class="fa-solid fa-star"></i></li>
+                                            <li><i class="fa-solid fa-star"></i></li>
+                                            <li><i class="fa-solid fa-star"></i></li>
+                                            <li><i class="fa-solid fa-star"></i></li>
+                                            <li>5.0(30)</li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card cardmedia mb-3 col-lg-6 col-md-12" style="max-width: 540px;">
+                    <div class="row no-gutters">
+                        <div class=" col-lg-4 col-md-4 imgbe">
+                            <img src="../image/4.jpg" alt="home1" class="imgmedia">
+                        </div>
+                        <div class="col-lg-8 col-md-8">
+                            <div class="card-body">
+                                <a class="titlelink" href="../html/details.index.html">10765 Hillshire Ave, Baton Rouge, LA<br>
+                                    70810, USA</a>
+                                <hr>
+                                <ul class="threeicon">
+                                    <li>
+                                        <i class="fa-solid fa-minimize"></i>
+                                        <span>8000 sqf</span>
+                                    </li>
+                                    <li>
+                                        <i class="fa-solid fa-bed"></i>
+                                        <span>4 Beds</span>
+                                    </li>
+                                    <li>
+                                        <i class="fa-solid fa-bath"></i>
+                                        <span>4 Baths</span>
+                                    </li>
+                                </ul>
+                                <hr>
+                                <ul class="detal">
+                                    <li>
+                                        <span>Price</span>
+                                        <p>$5000</p>
+                                    </li>
+                                    <li>
+                                        <span>Rating</span>
+                                        <ul class="rate">
+                                            <li><i class="fa-solid fa-star"></i></li>
+                                            <li><i class="fa-solid fa-star"></i></li>
+                                            <li><i class="fa-solid fa-star"></i></li>
+                                            <li><i class="fa-solid fa-star"></i></li>
+                                            <li><i class="fa-solid fa-star"></i></li>
+                                            <li>5.0(30)</li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card cardmedia mb-3 col-lg-6 col-md-12" style="max-width: 540px;">
+                    <div class="row no-gutters">
+                        <div class=" col-lg-4 col-md-4 imgbe">
+                            <img src="../image/5.jpg" alt="home1" class="imgmedia">
+                        </div>
+                        <div class="col-lg-8 col-md-8">
+                            <div class="card-body">
+                                <a class="titlelink" href="../html/details.index.html">10765 Hillshire Ave, Baton Rouge, LA<br>
+                                    70810, USA</a>
+                                <hr>
+                                <ul class="threeicon">
+                                    <li>
+                                        <i class="fa-solid fa-minimize"></i>
+                                        <span>8000 sqf</span>
+                                    </li>
+                                    <li>
+                                        <i class="fa-solid fa-bed"></i>
+                                        <span>4 Beds</span>
+                                    </li>
+                                    <li>
+                                        <i class="fa-solid fa-bath"></i>
+                                        <span>4 Baths</span>
+                                    </li>
+                                </ul>
+                                <hr>
+                                <ul class="detal">
+                                    <li>
+                                        <span>Price</span>
+                                        <p>$5000</p>
+                                    </li>
+                                    <li>
+                                        <span>Rating</span>
+                                        <ul class="rate">
+                                            <li><i class="fa-solid fa-star"></i></li>
+                                            <li><i class="fa-solid fa-star"></i></li>
+                                            <li><i class="fa-solid fa-star"></i></li>
+                                            <li><i class="fa-solid fa-star"></i></li>
+                                            <li><i class="fa-solid fa-star"></i></li>
+                                            <li>5.0(30)</li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card cardmedia mb-3 col-lg-6 col-md-12" style="max-width: 540px;">
+                    <div class="row no-gutters">
+                        <div class=" col-lg-4 col-md-4 imgbe">
+                            <img src="../image/6.jpg" alt="home1" class="imgmedia">
+                        </div>
+                        <div class="col-lg-8 col-md-8">
+                            <div class="card-body">
+                                <a class="titlelink" href="../html/details.index.html">10765 Hillshire Ave, Baton Rouge, LA<br>
+                                    70810, USA</a>
+                                <hr>
+                                <ul class="threeicon">
+                                    <li>
+                                        <i class="fa-solid fa-minimize"></i>
+                                        <span>8000 sqf</span>
+                                    </li>
+                                    <li>
+                                        <i class="fa-solid fa-bed"></i>
+                                        <span>4 Beds</span>
+                                    </li>
+                                    <li>
+                                        <i class="fa-solid fa-bath"></i>
+                                        <span>4 Baths</span>
+                                    </li>
+                                </ul>
+                                <hr>
+                                <ul class="detal">
+                                    <li>
+                                        <span>Price</span>
+                                        <p>$5000</p>
+                                    </li>
+                                    <li>
+                                        <span>Rating</span>
+                                        <ul class="rate">
+                                            <li><i class="fa-solid fa-star"></i></li>
+                                            <li><i class="fa-solid fa-star"></i></li>
+                                            <li><i class="fa-solid fa-star"></i></li>
+                                            <li><i class="fa-solid fa-star"></i></li>
+                                            <li><i class="fa-solid fa-star"></i></li>
+                                            <li>5.0(30)</li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card cardmedia mb-3 col-lg-6 col-md-12" style="max-width: 540px;">
+                    <div class="row no-gutters">
+                        <div class=" col-lg-4 col-md-4 imgbe">
+                            <img src="../image/7.jpg" alt="home1" class="imgmedia">
+                        </div>
+                        <div class="col-lg-8 col-md-8">
+                            <div class="card-body">
+                                <a class="titlelink" href="../html/details.index.html">10765 Hillshire Ave, Baton Rouge, LA<br>
+                                    70810, USA</a>
+                                <hr>
+                                <ul class="threeicon">
+                                    <li>
+                                        <i class="fa-solid fa-minimize"></i>
+                                        <span>8000 sqf</span>
+                                    </li>
+                                    <li>
+                                        <i class="fa-solid fa-bed"></i>
+                                        <span>4 Beds</span>
+                                    </li>
+                                    <li>
+                                        <i class="fa-solid fa-bath"></i>
+                                        <span>4 Baths</span>
+                                    </li>
+                                </ul>
+                                <hr>
+                                <ul class="detal">
+                                    <li>
+                                        <span>Price</span>
+                                        <p>$5000</p>
+                                    </li>
+                                    <li>
+                                        <span>Rating</span>
+                                        <ul class="rate">
+                                            <li><i class="fa-solid fa-star"></i></li>
+                                            <li><i class="fa-solid fa-star"></i></li>
+                                            <li><i class="fa-solid fa-star"></i></li>
+                                            <li><i class="fa-solid fa-star"></i></li>
+                                            <li><i class="fa-solid fa-star"></i></li>
+                                            <li>5.0(30)</li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card cardmedia mb-3 col-lg-6 col-md-12" style="max-width: 540px;">
+                    <div class="row no-gutters">
+                        <div class=" col-lg-4 col-md-4 imgbe">
+                            <img src="../image/8.jpg" alt="home1" class="imgmedia">
+                        </div>
+                        <div class="col-lg-8 col-md-8">
+                            <div class="card-body">
+                                <a class="titlelink" href="../html/details.index.html">10765 Hillshire Ave, Baton Rouge, LA<br>
+                                    70810, USA</a>
+                                <hr>
+                                <ul class="threeicon">
+                                    <li>
+                                        <i class="fa-solid fa-minimize"></i>
+                                        <span>8000 sqf</span>
+                                    </li>
+                                    <li>
+                                        <i class="fa-solid fa-bed"></i>
+                                        <span>4 Beds</span>
+                                    </li>
+                                    <li>
+                                        <i class="fa-solid fa-bath"></i>
+                                        <span>4 Baths</span>
+                                    </li>
+                                </ul>
+                                <hr>
+                                <ul class="detal">
+                                    <li>
+                                        <span>Price</span>
+                                        <p>$5000</p>
+                                    </li>
+                                    <li>
+                                        <span>Rating</span>
+                                        <ul class="rate">
+                                            <li><i class="fa-solid fa-star"></i></li>
+                                            <li><i class="fa-solid fa-star"></i></li>
+                                            <li><i class="fa-solid fa-star"></i></li>
+                                            <li><i class="fa-solid fa-star"></i></li>
+                                            <li><i class="fa-solid fa-star"></i></li>
+                                            <li>5.0(30)</li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card cardmedia mb-3 col-lg-6 col-md-12" style="max-width: 540px;">
+                    <div class="row no-gutters">
+                        <div class=" col-lg-4 col-md-4 imgbe">
+                            <img src="../image/9.jpg" alt="home1" class="imgmedia">
+                        </div>
+                        <div class="col-lg-8 col-md-8">
+                            <div class="card-body">
+                                <a class="titlelink" href="../html/details.index.html">10765 Hillshire Ave, Baton Rouge, LA<br>
+                                    70810, USA</a>
+                                <hr>
+                                <ul class="threeicon">
+                                    <li>
+                                        <i class="fa-solid fa-minimize"></i>
+                                        <span>8000 sqf</span>
+                                    </li>
+                                    <li>
+                                        <i class="fa-solid fa-bed"></i>
+                                        <span>4 Beds</span>
+                                    </li>
+                                    <li>
+                                        <i class="fa-solid fa-bath"></i>
+                                        <span>4 Baths</span>
+                                    </li>
+                                </ul>
+                                <hr>
+                                <ul class="detal">
+                                    <li>
+                                        <span>Price</span>
+                                        <p>$5000</p>
+                                    </li>
+                                    <li>
+                                        <span>Rating</span>
+                                        <ul class="rate">
+                                            <li><i class="fa-solid fa-star"></i></li>
+                                            <li><i class="fa-solid fa-star"></i></li>
+                                            <li><i class="fa-solid fa-star"></i></li>
+                                            <li><i class="fa-solid fa-star"></i></li>
+                                            <li><i class="fa-solid fa-star"></i></li>
+                                            <li>5.0(30)</li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card cardmedia mb-3 col-lg-6 col-md-12" style="max-width: 540px;">
+                    <div class="row no-gutters">
+                        <div class=" col-lg-4 col-md-4 imgbe">
+                            <img src="../image/10.jpg" alt="home1" class="imgmedia">
+                        </div>
+                        <div class="col-lg-8 col-md-8">
+                            <div class="card-body">
+                                <a class="titlelink" href="../html/details.index.html">10765 Hillshire Ave, Baton Rouge, LA<br>
+                                    70810, USA</a>
+                                <hr>
+                                <ul class="threeicon">
+                                    <li>
+                                        <i class="fa-solid fa-minimize"></i>
+                                        <span>8000 sqf</span>
+                                    </li>
+                                    <li>
+                                        <i class="fa-solid fa-bed"></i>
+                                        <span>4 Beds</span>
+                                    </li>
+                                    <li>
+                                        <i class="fa-solid fa-bath"></i>
+                                        <span>4 Baths</span>
+                                    </li>
+                                </ul>
+                                <hr>
+                                <ul class="detal">
+                                    <li>
+                                        <span>Price</span>
+                                        <p>$5000</p>
+                                    </li>
+                                    <li>
+                                        <span>Rating</span>
+                                        <ul class="rate">
+                                            <li><i class="fa-solid fa-star"></i></li>
+                                            <li><i class="fa-solid fa-star"></i></li>
+                                            <li><i class="fa-solid fa-star"></i></li>
+                                            <li><i class="fa-solid fa-star"></i></li>
+                                            <li><i class="fa-solid fa-star"></i></li>
+                                            <li>5.0(30)</li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card cardmedia mb-3 col-lg-6 col-md-12" style="max-width: 540px;">
+                    <div class="row no-gutters">
+                        <div class=" col-lg-4 col-md-4 imgbe">
+                            <img src="../image/11.jpg" alt="home1" class="imgmedia">
+                        </div>
+                        <div class="col-lg-8 col-md-8">
+                            <div class="card-body">
+                                <a class="titlelink" href="../html/details.index.html">10765 Hillshire Ave, Baton Rouge, LA<br>
+                                    70810, USA</a>
+                                <hr>
+                                <ul class="threeicon">
+                                    <li>
+                                        <i class="fa-solid fa-minimize"></i>
+                                        <span>8000 sqf</span>
+                                    </li>
+                                    <li>
+                                        <i class="fa-solid fa-bed"></i>
+                                        <span>4 Beds</span>
+                                    </li>
+                                    <li>
+                                        <i class="fa-solid fa-bath"></i>
+                                        <span>4 Baths</span>
+                                    </li>
+                                </ul>
+                                <hr>
+                                <ul class="detal">
+                                    <li>
+                                        <span>Price</span>
+                                        <p>$5000</p>
+                                    </li>
+                                    <li>
+                                        <span>Rating</span>
+                                        <ul class="rate">
+                                            <li><i class="fa-solid fa-star"></i></li>
+                                            <li><i class="fa-solid fa-star"></i></li>
+                                            <li><i class="fa-solid fa-star"></i></li>
+                                            <li><i class="fa-solid fa-star"></i></li>
+                                            <li><i class="fa-solid fa-star"></i></li>
+                                            <li>5.0(30)</li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card cardmedia mb-3 col-lg-6 col-md-12" style="max-width: 540px;">
+                    <div class="row no-gutters">
+                        <div class=" col-lg-4 col-md-4 imgbe">
+                            <img src="../image/12.jpg" alt="home1" class="imgmedia">
+                        </div>
+                        <div class="col-lg-8 col-md-8">
+                            <div class="card-body">
+                                <a class="titlelink" href="../html/details.index.html">10765 Hillshire Ave, Baton Rouge, LA<br>
+                                    70810, USA</a>
+                                <hr>
+                                <ul class="threeicon">
+                                    <li>
+                                        <i class="fa-solid fa-minimize"></i>
+                                        <span>8000 sqf</span>
+                                    </li>
+                                    <li>
+                                        <i class="fa-solid fa-bed"></i>
+                                        <span>4 Beds</span>
+                                    </li>
+                                    <li>
+                                        <i class="fa-solid fa-bath"></i>
+                                        <span>4 Baths</span>
+                                    </li>
+                                </ul>
+                                <hr>
+                                <ul class="detal">
+                                    <li>
+                                        <span>Price</span>
+                                        <p>$5000</p>
+                                    </li>
+                                    <li>
+                                        <span>Rating</span>
+                                        <ul class="rate">
+                                            <li><i class="fa-solid fa-star"></i></li>
+                                            <li><i class="fa-solid fa-star"></i></li>
+                                            <li><i class="fa-solid fa-star"></i></li>
+                                            <li><i class="fa-solid fa-star"></i></li>
+                                            <li><i class="fa-solid fa-star"></i></li>
+                                            <li>5.0(30)</li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="elemts col-lg-12 col-md-12 col-sm-12">
+                <div class="nuelement">
+                    <button class="btn btn-0 klma"><</button>
+                    <button class="btn btn-1 klma">1</button>
+                    <button class="btn btn-2 klma">2</button>
+                    <button class="btn btn-3  active klma">3</button>
+                    <button class="btn btn-4 klma">4</button>
+                    <button class="btn btn-5 klma">5</button>
+                    <button class="btn btn-6 klma">></button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="formfoot">
+        <form class="form-group col-lg-9 col-md-11 col-sm-10" id="form_1">
+            <div class="fbody row">
+                <div class="frombody col-lg-6 col-md-6">
+                    <h2>Subscribe to Newsletter!</h2>
+                    <p>Subscribe to get latest updates and information.</p>
+                </div>
+                <div class="form-row align-items-center col-lg-6 col-md-6">
+                    <div class="input-group">
+                        <input type="text" class="form-control" id="inlineFormInputGroup" placeholder="Enter your Email">
+                        <div class="input-group-prepend">
+                            <div class="input-group-text">Subscribe</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </form>
+    </div>
+    <footer class="footer" id="foot">
+        <div class="container">
+            <div class="row">
+                <div class="inflogo  col-lg-4 col-md-12 col-sm-12">
+                    <a class="footer-brand" href="../html/home.index.html">
+                        <img style="max-width: 150px;" src="../image/logo-ligh.png" alt="logo">
+                    </a>
+                    <p class="pho">A great plateform to buy, sell and rent your<br>
+                        properties without any agent or commisions.
+                    </p>
+                </div>
+                <div class="infolist  col-lg-8 col-md-12 col-sm-12">
+                    <div class="row">
+                        <div class="col-lg-4 col-md-4 col-sm-6 smallist">
+                            <div class="list-group">
+                                <h5>Company</h5>
+                                <ul>   
+                                    <li><a href="../html/about.index.html" class="list-group-item">About Us</a></li>
+                                    <li><a href="../html/feature.index.html" class="list-group-item">Services</a></li>
+                                    <li><a href="../html/pricing.index.html" class="list-group-item">pricing</a></li>
+                                    <li><a href="#" class="list-group-item">Blog</a></li>
+                                    <li><a href="../html/login.html" class="list-group-item">Login</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-4 col-sm-6 smallist">
+                            <div class="list-group">
+                                <h5>Usefull Links</h5>
+                                <ul>   
+                                    <li><a href="../html/Terms.index.html" class="list-group-item"> Terms of Services</a></li>
+                                    <li><a href="../html/Privacy.index.html" class="list-group-item">Privacy Policy</a></li>
+                                    <li><a href="#" class="list-group-item">Listing</a></li>
+                                    <li><a href="../html/contant.index.html" class="list-group-item"> Contact</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-4 col-sm-6 smallist">
+                            <div class="list-group">
+                                <h5>Contact Details</h5>
+                                <ul class="diffrent">   
+                                    <li><a href="#" class="list-group-item">
+                                            <i class="fa-solid fa-location-dot"></i>
+                                            <address>
+                                                C/54 Northwest Freeway,
+                                                Suite 558,
+                                                Houston, USA 485<br>
+                                                <span>View on Google map</span> 
+                                            </address>
+                                            
+                                        </a>
+                                    </li>
+                                    <li><a href="#" class="list-group-item">
+                                        <i class="fa-solid fa-envelope"></i>
+                                        <span>contact@example.com</span>
+                                    </a></li>
+                                    <li><a href="#" class="list-group-item"> 
+                                        <i class="fa-solid fa-phone"></i>
+                                        <span>+152 534-468-854</span>
+                                    </a></li>
+                                </ul>
+                            </div>
+                        </div>
+                </div>
+                
+            </div>
+        </div>
+        <div class="container">
+            <div class="row emda">
+                <div class="col-lg-6">
+                        <p>	&copy;2022 Hously. Design with <i class="fa-solid fa-heart"></i>  by Loaa. </p>
+                </div>
+                <div class="col-lg-6">
+                    <ul class="footer-icon">
+                        <li><i class="fa-brands fa-facebook-f"></i></li>
+                        <li><i class="fa-brands fa-instagram"></i></li>
+                        <li><i class="fa-brands fa-twitter"></i></li>
+                        <li><i class="fa-brands fa-linkedin-in"></i></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        
+    </footer>
+
+    <script src="../js/jquery.slim.min.js "></script>
+    <script src="../js/popper.min.js "></script>
+    <script src="../js/bootstrap.min.js "></script>
+    <script src="../js/owl.carousel.min.js"></script>
+    <script src="../js/darkmode.js"></script>
+    <script src="../js/Maiin.js"></script>
+</body>
+</html>
